@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="../styles.css" />
+        <title>Calculates</title>
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div id="question">
+                <div>Choose an operator</div>
+                <div>
+                    <button class="btn" data-operator="addition">Addition</button>
+                    <button class="btn" data-operator="soustraction">Soustraction</button>
+                    <button class="btn" data-operator="multiplication">Multiplication</button>
+                    <button class="btn" data-operator="division">Division</button>
+                </div>
+            </div>
+    
+            <div id="answer" style="display:none;">
+                <span id="first"></span>
+                <span id="operator-mark"></span>
+                <span id="second"></span>
+                <span id="result-mark">=</span>
+                <span id="result"></span>
+            </div>
+
+        </div>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
